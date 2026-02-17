@@ -309,17 +309,31 @@ function TutorialContent() {
                                     )}
                                 </p>
 
-                                {/* PDF Download Button */}
-                                <a
-                                    href="/RELIA_Partilhar_o_Seu_Progresso.pdf"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-3 bg-white text-relia-dark px-8 py-4 rounded-full font-bold hover:bg-relia-graybg transition-all duration-300 shadow-xl group"
-                                >
-                                    <FileTextIcon className="w-5 h-5" />
-                                    <span>{t('Descarregar Guia (PDF)', 'Download Guide (PDF)')}</span>
-                                    <ChevronRightIcon className="w-4 h-4 opacity-70 group-hover:translate-x-1 transition-transform" />
-                                </a>
+                                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                                    {/* PDF Download Button */}
+                                    <a
+                                        href="/RELIA_Partilhar_o_Seu_Progresso.pdf"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-3 bg-white text-relia-dark px-8 py-4 rounded-full font-bold hover:bg-relia-graybg transition-all duration-300 shadow-xl group"
+                                    >
+                                        <FileTextIcon className="w-5 h-5" />
+                                        <span>{t('Descarregar Guia (PDF)', 'Download Guide (PDF)')}</span>
+                                        <ChevronRightIcon className="w-4 h-4 opacity-70 group-hover:translate-x-1 transition-transform" />
+                                    </a>
+
+                                    {/* Online Guide Button */}
+                                    <a
+                                        href="https://reliatutorial-csacrgrk.manus.space"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center gap-3 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-relia-dark transition-all duration-300 shadow-xl group"
+                                    >
+                                        <BookOpenIcon className="w-5 h-5" />
+                                        <span>{t('Navegue no guia', 'Browse the Guide')}</span>
+                                        <ChevronRightIcon className="w-4 h-4 opacity-70 group-hover:translate-x-1 transition-transform" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
