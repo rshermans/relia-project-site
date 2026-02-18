@@ -270,7 +270,7 @@ function TutorialContent() {
                     <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-black aspect-video max-w-4xl mx-auto">
                         <iframe
                             className="w-full h-full absolute inset-0"
-                            src="https://youtu.be/DO_drVKVEW4"
+                            src="https://www.youtube.com/embed/DO_drVKVEW4?autoplay=1&cc_load_policy=1"
                             title="Tutorial RELIA"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
