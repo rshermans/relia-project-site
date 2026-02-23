@@ -17,6 +17,7 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   // Research Team
   { name: 'Sílvia Lima Gonçalves Araújo', role: 'Investigadora Responsável', roleEn: 'Principal Investigator', institution: 'ELACH | UMinho', isHighlighted: true, category: 'research', linkedin: 'https://www.linkedin.com/in/s%C3%ADlvia-ara%C3%BAjo-95811946/' },
+  { name: 'Adelina Moura', role: 'Investigador/a', roleEn: 'Researcher', institution: 'Escola Secundária Carlos Amarante', category: 'research', linkedin: 'https://www.linkedin.com/in/adelina-moura-5115686/' },
   { name: 'Ana Ribeiro', role: 'Investigador/a', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
   { name: 'João Varajão', role: 'Investigador/a', roleEn: 'Researcher', institution: 'Escola de Engenharia | UMinho', category: 'research', linkedin: 'https://www.linkedin.com/in/joaovarajao/' },
   { name: 'Maria Micaela Moreira', role: 'Investigador/a', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
@@ -60,8 +61,8 @@ function TeamCard({ member }: TeamCardProps) {
     <div className="p-6 flex flex-col h-full">
       <div className="flex flex-col gap-2 mb-4">
         <span className={`text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full w-fit shadow-sm ${member.isHighlighted
-            ? 'bg-relia-dark text-white'
-            : 'bg-relia-light text-white'
+          ? 'bg-relia-dark text-white'
+          : 'bg-relia-light text-white'
           }`}>
           {t(member.role, member.roleEn)}
         </span>
@@ -89,8 +90,8 @@ function TeamCard({ member }: TeamCardProps) {
         target="_blank"
         rel="noopener noreferrer"
         className={`bg-white rounded-2xl border shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full group cursor-pointer ${member.isHighlighted
-            ? 'border-relia-light ring-2 ring-relia-light/20'
-            : 'border-relia-graybg'
+          ? 'border-relia-light ring-2 ring-relia-light/20'
+          : 'border-relia-graybg'
           }`}
       >
         {cardContent}
@@ -100,8 +101,8 @@ function TeamCard({ member }: TeamCardProps) {
 
   return (
     <div className={`bg-white rounded-2xl border shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full group ${member.isHighlighted
-        ? 'border-relia-light ring-2 ring-relia-light/20'
-        : 'border-relia-graybg'
+      ? 'border-relia-light ring-2 ring-relia-light/20'
+      : 'border-relia-graybg'
       }`}>
       {cardContent}
     </div>
