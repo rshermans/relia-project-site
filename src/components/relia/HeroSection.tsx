@@ -115,25 +115,6 @@ export function HeroSection() {
                       'Through personalized, inclusive, and safe digital services, RELIA helps young readers engage with literary heritage and reinforces the role of libraries as spaces for equitable access to knowledge and citizenship promotion.'
                     )}
                   </p>
-
-                  <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-white/15 p-5 rounded-2xl backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300">
-                      <span className="block text-2xl font-bold mb-1">
-                        {t('Inclusivo', 'Inclusive')}
-                      </span>
-                      <span className="text-xs text-white/70 uppercase tracking-tight font-semibold">
-                        {t('Design Universal', 'Universal Design')}
-                      </span>
-                    </div>
-                    <div className="bg-white/15 p-5 rounded-2xl backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300">
-                      <span className="block text-2xl font-bold mb-1">
-                        {t('Seguro', 'Secure')}
-                      </span>
-                      <span className="text-xs text-white/70 uppercase tracking-tight font-semibold">
-                        {t('Conformidade RGPD', 'GDPR Compliance')}
-                      </span>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

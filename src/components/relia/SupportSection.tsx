@@ -203,17 +203,6 @@ export function SupportSection() {
           </p>
         </div>
 
-        {/* Partner Logos Image */}
-        <div className="mb-16 flex justify-center">
-          <div className="bg-white p-6 rounded-2xl shadow-xl max-w-5xl w-full">
-            <img
-              src="/parceiros-logos.png"
-              alt="Logos dos Parceiros Institucionais"
-              className="w-full h-auto object-contain"
-            />
-          </div>
-        </div>
-
         {/* Libraries Partners */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-8">
@@ -230,7 +219,7 @@ export function SupportSection() {
         </div>
 
         {/* Education Partners */}
-        <div>
+        <div className="mb-20">
           <div className="flex items-center gap-4 mb-8">
             <span className="w-10 h-px bg-relia-dark/30"></span>
             <h4 className="text-xs font-bold text-relia-graytext uppercase tracking-widest">
@@ -241,6 +230,17 @@ export function SupportSection() {
             {educationPartners.map((partner, index) => (
               <PartnerCard key={index} partner={partner} />
             ))}
+          </div>
+        </div>
+
+        {/* Partner Logos Image */}
+        <div className="mb-16 flex justify-center">
+          <div className="bg-white p-6 rounded-2xl shadow-xl max-w-5xl md:w-[50%] w-full">
+            <img
+              src="/parceiros-logos.png"
+              alt="Logos dos Parceiros Institucionais"
+              className="w-full h-auto object-contain"
+            />
           </div>
         </div>
       </div>

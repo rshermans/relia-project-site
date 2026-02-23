@@ -17,16 +17,16 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   // Research Team
   { name: 'Sílvia Lima Gonçalves Araújo', role: 'Investigadora Responsável', roleEn: 'Principal Investigator', institution: 'ELACH | UMinho', isHighlighted: true, category: 'research', linkedin: 'https://www.linkedin.com/in/s%C3%ADlvia-ara%C3%BAjo-95811946/' },
-  { name: 'Adelina Moura', role: 'Investigador/a', roleEn: 'Researcher', institution: 'Escola Secundária Carlos Amarante', category: 'research', linkedin: 'https://www.linkedin.com/in/adelina-moura-5115686/' },
-  { name: 'Ana Ribeiro', role: 'Investigador/a', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
-  { name: 'João Varajão', role: 'Investigador/a', roleEn: 'Researcher', institution: 'Escola de Engenharia | UMinho', category: 'research', linkedin: 'https://www.linkedin.com/in/joaovarajao/' },
-  { name: 'Maria Micaela Moreira', role: 'Investigador/a', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
-  { name: 'Micaela Aguiar', role: 'Investigador/a', roleEn: 'Researcher', institution: 'FLUP | Universidade do Porto', category: 'research', linkedin: 'https://www.linkedin.com/in/micaela-aguiar-b565b412b/' },
-  { name: 'Pedro Miguel Venâncio', role: 'Investigador/a', roleEn: 'Researcher', institution: 'Escola de Direito | UMinho', category: 'research', linkedin: 'https://www.linkedin.com/in/pedrodiasvenancio' },
+  { name: 'Adelina Moura', role: 'Investigadora', roleEn: 'Researcher', institution: 'Escola Secundária Carlos Amarante', category: 'research', linkedin: 'https://www.linkedin.com/in/adelina-moura-5115686/' },
+  { name: 'Ana Ribeiro', role: 'Investigadora', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
+  { name: 'João Varajão', role: 'Investigador', roleEn: 'Researcher', institution: 'Escola de Engenharia | UMinho', category: 'research', linkedin: 'https://www.linkedin.com/in/joaovarajao/' },
+  { name: 'Maria Micaela Moreira', role: 'Investigadora', roleEn: 'Researcher', institution: 'ELACH | UMinho', category: 'research' },
+  { name: 'Micaela Aguiar', role: 'Investigadora', roleEn: 'Researcher', institution: 'FLUP | Universidade do Porto', category: 'research', linkedin: 'https://www.linkedin.com/in/micaela-aguiar-b565b412b/' },
+  { name: 'Pedro Miguel Venâncio', role: 'Investigador', roleEn: 'Researcher', institution: 'Escola de Direito | UMinho', category: 'research', linkedin: 'https://www.linkedin.com/in/pedrodiasvenancio' },
   // Research Fellows
-  { name: 'Eduardo Mota', role: 'Bolseiro/a', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow' },
-  { name: 'Joana Azevedo', role: 'Bolseiro/a', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow', linkedin: 'https://www.linkedin.com/in/joana-azevedo-368a78224/' },
-  { name: 'Rômulo Sherman', role: 'Bolseiro/a', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow', linkedin: 'https://www.linkedin.com/in/rshermans/' },
+  { name: 'Eduardo Mota', role: 'Bolseiro', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow' },
+  { name: 'Joana Azevedo', role: 'Bolseira', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow', linkedin: 'https://www.linkedin.com/in/joana-azevedo-368a78224/' },
+  { name: 'Rômulo Sherman', role: 'Bolseiro', roleEn: 'Fellow', institution: 'ELACH | UMinho', isHighlighted: true, category: 'fellow', linkedin: 'https://www.linkedin.com/in/rshermans/' },
   // CCG Team
   { name: 'Hugo Sousa', role: 'Engenharia CCG', roleEn: 'CCG Engineering', institution: 'CCG', category: 'ccg' },
   { name: 'Manuel Santos', role: 'Engenharia CCG', roleEn: 'CCG Engineering', institution: 'CCG', category: 'ccg', linkedin: 'https://www.linkedin.com/in/manuel-santos-34b107b5' },
@@ -34,11 +34,11 @@ const teamMembers: TeamMember[] = [
   { name: 'Rui Ribeiro', role: 'Engenharia CCG', roleEn: 'CCG Engineering', institution: 'CCG', category: 'ccg' },
   { name: 'Tiago Castro', role: 'Engenharia CCG', roleEn: 'CCG Engineering', institution: 'CCG', category: 'ccg' },
   // Consultants
-  { name: 'Aida Alves', role: 'Consultor/a', roleEn: 'Consultant', institution: 'Biblioteca Lúcio Craveiro da Silva', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/aida-alves-9a6341252/' },
-  { name: 'Francisco Lopes', role: 'Consultor/a', roleEn: 'Consultant', institution: 'ELACH — Universidade do Minho', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/jitendra-raut/' },
-  { name: 'Regina Campos', role: 'Consultor/a', roleEn: 'Consultant', institution: 'Rede de Bibliotecas Escolares', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/jitendra-raut/' },
-  { name: 'Sérgio Serra', role: 'Consultor/a', roleEn: 'Consultant', institution: 'UFRRJ — Brasil', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/sergio-serra-7a16086' },
-  { name: 'Ulisses Mota', role: 'Consultor/a', roleEn: 'Consultant', institution: 'Escola Secundária Henrique Medina', isHighlighted: true, category: 'consultant', linkedin: 'https://linkedin.com/in/uli66' },
+  { name: 'Aida Alves', role: 'Consultora', roleEn: 'Consultant', institution: 'Biblioteca Lúcio Craveiro da Silva', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/aida-alves-9a6341252/' },
+  { name: 'Francisco Lopes', role: 'Consultor', roleEn: 'Consultant', institution: 'ELACH — Universidade do Minho', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/jitendra-raut/' },
+  { name: 'Regina Campos', role: 'Consultora', roleEn: 'Consultant', institution: 'Rede de Bibliotecas Escolares', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/jitendra-raut/' },
+  { name: 'Sérgio Serra', role: 'Consultor', roleEn: 'Consultant', institution: 'UFRRJ — Brasil', isHighlighted: true, category: 'consultant', linkedin: 'https://www.linkedin.com/in/sergio-serra-7a16086' },
+  { name: 'Ulisses Mota', role: 'Consultor', roleEn: 'Consultant', institution: 'Escola Secundária Henrique Medina', isHighlighted: true, category: 'consultant', linkedin: 'https://linkedin.com/in/uli66' },
 ];
 
 // LinkedIn SVG Icon (inline to keep it simple)
